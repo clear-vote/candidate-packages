@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Compiled binary addons (node-gyp)
+build/Release
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
+
+# dotenv environment variable files
+.env
+
+# macOS
+.DS_Store
+
+# Editor-specific files
+.vscode/
+*.suo
+*.ntvs*
+
+# Sublime Text
+.sdf/
+.project
+*.sublime-workspace
+
+# IDE files
+.idea/
+
+# OS generated files
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Chrome Dev Tools workspace settings
+*.code-workspace
+
+# Node inspector
+.legacy
+
+# Visual Studio Code workspace settings
+.code-workspace
+
+# End of generated files from create-react-app
+
+# Jest
+coverage/
