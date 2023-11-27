@@ -26,18 +26,6 @@ async function scrape() {
     await page.goto(SCRAPE_URL);
     console.log(`/!\\ Going to ${SCRAPE_URL} /!\\`);
 
-    // const groups = groupTags.map(group => {
-    //     const groupTags = Array.from(document.querySelectorAll('.candidate-list-group'));
-    //     const groupName = groupTags.querySelector("h4").textContent.trim();
-    //     candJson[groupName] = { };
-    //     const candDivs = groupTags.querySelectorAll(".candidatelist-div")
-
-    //     groupName
-    //     console.log(`Inside page.evaluate(): ${h4Text}`);
-    //     return h4Text;});
-
-
-    // console.log(groups)
     const candidateData = await page.evaluate(() => {
       const groups = Array.from(document.querySelectorAll('.list-group.candidate-list-group'));
       const data = {};
@@ -52,6 +40,7 @@ async function scrape() {
             const candidateInfo = candidates.map(candidate => {
               const candidateName = candidate.querySelector('.ballotname').textContent;
               const candidateUrl = candidate.getAttribute('href');
+
               return { name: candidateName, url: candidateUrl };
             });
             divArr.push({
@@ -67,22 +56,6 @@ async function scrape() {
 
   console.log('Candidate Data:', candidateData);
   return candidateData
-    // Scrapes products subpages
-    // for (const candidate of candidates) {
-
-    //   console.log(`Starting ${candidate['url']}...`);
-
-    //   // Interval between subpage requests
-    //   await new Promise(resolve => setTimeout(resolve, 2500));
-    //   await page.goto(url);
-    //   // !!! Uncomment code to change schema for ski/snb !!!
-    //   await page.evaluate(() => {
-
-
-    //     console.log("Completed")
-    //     return data;
-    //   });
-    // };
   } catch (error) {
     console.error(error);
   } finally {
