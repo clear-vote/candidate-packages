@@ -16,7 +16,7 @@ const main = async () => {
 async function scrape() {
   let browser;
   try {
-    browser = await puppeteer.launch();
+    browser = await puppeteer.launch({ headless: "new" });
     const page = await browser.newPage();
     page.setDefaultNavigationTimeout(2 * 60 * 1000);
 
