@@ -152,17 +152,7 @@ function getPositionChar(s, t) {
     if (positionChar) return positionChar;
     console.error('ERROR: No (at large) position for city council found');
   } else if (t === 'school district director') {
-    match = s.match(
-        new RegExp(
-            '(?:director district no.|' +
-            'director district|' +
-            'director position no.|' +
-            'director position|' +
-            'director dist.)\\s+' +
-            '(.*?)(?:,|\\s+|$)', +
-            'i',
-        ),
-    );
+    match = s.match(/(?:director district no.|director district|director position no.|director position|director dist.)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error(
