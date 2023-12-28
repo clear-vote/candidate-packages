@@ -2,7 +2,7 @@
 
 ### Getting started
 1. After cloning, run npm install to download dependencies (puppeteer)
-2. Configure puppeteer (https://pptr.dev/guides/configuration)
+2. Configure puppeteer (https://pptr.dev/guides/configuration) you may not need to do this
 3. run on 'scraper/wa-king-scraper.js'
 
 ### The voter guide

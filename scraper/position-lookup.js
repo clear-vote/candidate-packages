@@ -8,15 +8,15 @@ function fetchTuple(positionText, electionId) {
     // null titles will result in unsupported/null contests, which are ignored
     if (titleString === null)
       return null;
-    positionNum = getPositionNum(s, titleString);
-    districtNum = getDistrictNum(s, titleString);
-    areaName = getAreaName(s, titleString, positionNum, districtNum);
+    positionChar = getPositionChar(s, titleString);
+    districtChar = getDistrictChar(s, titleString);
+    areaName = getAreaName(s, titleString, positionChar, districtChar);
     return {
       election_id: electionId,
       title_string: titleString,
       area_name: areaName,
-      district_number: districtNum,
-      position_number: positionNum
+      district_char: districtChar,
+      position_char: positionChar
     };
 }
 
@@ -79,57 +79,57 @@ function getTitle(s) {
 }
 
 // can be a number or a letter (char)
-function getDistrictNum(s, t) {
+function D(s, t) {
   // titles that don't have districts are null
   let match = null;
-  let districtNum = null;
+  let districtChar = null;
   if (t === "city council") {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
-    districtNum = match ? match[1] : null;
-    if (districtNum) return districtNum;
+    districtChar = match ? match[1] : null;
+    if (districtChar) return districtChar;
     console.error("ERROR: No district for city council found");
   } else if (t === "school district director") {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
-    districtNum = match ? match[1] : null;
-    if (districtNum) return districtNum;
+    districtChar = match ? match[1] : null;
+    if (districtChar) return districtChar;
     console.error("ERROR: No district for school district director found");
   } else if (t === "county council") {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
-    districtNum = match ? match[1] : null;
-    if (districtNum) return districtNum;
+    districtChar = match ? match[1] : null;
+    if (districtChar) return districtChar;
     console.error("ERROR: No district for county council found");
   } else if (t.includes("state")) {
     match = s.match(/(?:district)\s+(.*?)(?:,|\s+|$)/i);
-    districtNum = match ? match[1] : null;
-    if (districtNum) return districtNum;
+    districtChar = match ? match[1] : null;
+    if (districtChar) return districtChar;
     console.error("ERROR: No state rep district found");
   }
   return null;
 }
 
 // can be a number or a letter (char)
-function getPositionNum(s, t) {
+function P(s, t) {
   let match = null;
-  let positionNum = null;
+  let positionChar = null;
   if (t === "city council (at large)") {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
-    positionNum = match ? match[1] : null;
-    if (positionNum) return positionNum;
+    positionChar = match ? match[1] : null;
+    if (positionChar) return positionChar;
     console.error("ERROR: No (at large) position for city council found");
   } else if (t === "school district director") {
     match = s.match(/(?:director district no.|director district|director position no.|director position|director dist.)\s+(.*?)(?:,|\s+|$)/i);
-    positionNum = match ? match[1] : null;
-    if (positionNum) return positionNum;
+    positionChar = match ? match[1] : null;
+    if (positionChar) return positionChar;
     console.error("ERROR: No director district position for school district found");
   } else if (t === "county council (at large)") {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
-    positionNum = match ? match[1] : null;
-    if (positionNum) return positionNum;
+    positionChar = match ? match[1] : null;
+    if (positionChar) return positionChar;
     console.error("ERROR: No (at large) position for county council found");   
   } else if (t === "port commissioner (at large)") {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
-    positionNum = match ? match[1] : null;
-    if (positionNum) return positionNum;
+    positionChar = match ? match[1] : null;
+    if (positionChar) return positionChar;
     console.error("ERROR: No at large position for port commissioner found");
   }
   return null;
