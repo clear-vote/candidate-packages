@@ -80,12 +80,13 @@ async function scrapeHomePage() {
       if (contestData[i].position_info !== null) {
         contestData[i].candidate_info = await scrapeCandidateData(
             browser,
-            BASE_URL + contestData[i].candidate_info[0].url
+            BASE_URL + contestData[i].candidate_info[0].url,
         );
         newContestData.push(contestData[i]);
       }
     }
 
+    // console.log(JSON.stringify(newContestData, null, 2));
     return newContestData;
   } catch (error) {
     console.error(error);
