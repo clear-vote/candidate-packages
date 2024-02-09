@@ -20,8 +20,10 @@ function fetchTuple(positionText, electionId) {
   const districtChar = getDistrictChar(s, titleString);
   const areaName = getAreaName(s, titleString, positionChar, districtChar);
   return {
-    election_id: electionId,
-    title_string: titleString,
+    boundary_type: titleString[0],
+    title_string: titleString[1],
+    title_info: titleString[2],
+    title_description: titleString[3],
     area_name: areaName,
     district_char: districtChar,
     position_char: positionChar,
@@ -32,6 +34,7 @@ function fetchTuple(positionText, electionId) {
  * gets the title of a titleString
  * @param {string} s
  * @return {string|null} title
+ * TODO: return appropriate descriptions for each
  */
 function getTitle(s) {
   s = s.replace(/-/g, ' ');
@@ -47,54 +50,54 @@ function getTitle(s) {
       s.includes('commissioner')) {
     return null;
   } else if (s.includes('state senate')) {
-    return 'state senate';
+    return ['', 'state senate', '', ''];
   } else if (s.includes('state representative')) {
-    return 'state house of representatives';
+    return ['', 'state house of representatives', '', ''];
   } else if (s.includes('county') && s.includes('assessor')) {
-    return 'county assessor';
+    return ['', 'county assessor', '', ''];
   } else if (s.includes('county') && s.includes('auditor')) {
-    return 'county auditor';
+    return ['', 'county auditor', '', ''];
   } else if (s.includes('county') && s.includes('commissioner')) {
-    return 'county commissioner';
+    return ['', 'county commissioner', '', ''];
   } else if (s.includes('county') &&
         s.includes('council') && s.includes('at large')) {
-    return 'county council (at large)';
+    return ['', 'county council (at large)', '', ''];
   } else if (s.includes('county') &&
         s.includes('director') && s.includes('election')) {
-    return 'county director of elections';
+    return ['', 'county director of elections', '', ''];
   } else if (s.includes('county') && s.includes('executive')) {
-    return 'county executive';
+    return ['', 'county executive', '', ''];
   } else if (s.includes('county') &&
         s.includes('prosecuting') && s.includes('attorney')) {
-    return 'county prosecuting attorney';
+    return ['', 'county prosecuting attorney', '', ''];
   } else if (s.includes('county') && s.includes('sheriff')) {
-    return 'county sheriff';
+    return ['', 'county sheriff', '', ''];
   } else if (s.includes('county') && s.includes('treasurer')) {
-    return 'county treasurer';
+    return ['', 'county treasurer', '', ''];
   } else if (s.includes('port') &&
         s.includes('commissioner') && s.includes('position')) {
-    return 'port commissioner (at large)';
+    return ['', 'port commissioner (at large)', '', ''];
   } else if (s.includes('county') &&
         s.includes('council') && !s.includes('at large')) {
-    return 'county council';
+    return ['', 'county council', '', ''];
   } else if (s.includes('school') &&
         (s.includes('district') || s.includes('director'))) {
-    return 'school district director';
+    return ['', 'school district director', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('council') &&(s.includes('at large') ||
         s.includes('position'))) {
-    return 'city council (at large)';
+    return ['', 'city council (at large)', '', ''];
   } else if (s.includes('mayor')) {
     return 'mayor';
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('attorney')) {
-    return 'city attorney';
+    return ['', 'city attorney', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('treasurer')) {
-    return 'city treasurer';
+    return ['', 'city treasurer', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('council') && !s.includes('at large')) {
-    return 'city council';
+    return ['', 'city council', '', ''];
   } else {
     // TODO: implement port commissioner
     console.log('WARNING: Unsupported TITLE passed in');
@@ -152,7 +155,7 @@ function getPositionChar(s, t) {
     if (positionChar) return positionChar;
     console.error('ERROR: No (at large) position for city council found');
   } else if (t === 'school district director') {
-    match = s.match(/(?:director district no.|director district|director position no.|director position|director dist.)\s+(.*?)(?:,|\s+|$)/i);
+    match = s.match(/(?:director district no.|director district|director position no.|director position|director dist.)\s+(.*?)(?:,|\s+|$)/i); // TODO: concatonate strings here
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error(

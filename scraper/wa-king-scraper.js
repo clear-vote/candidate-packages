@@ -10,7 +10,9 @@ const ELECTION_NUMBER = 2;
 // TODO: in future iterations, we'd like to use the following url pattern
 // https://voter.votewa.gov/GenericVoterGuide.aspx?e=?&c=?#/
 const BASE_URL = 'https://info.kingcounty.gov/kcelections/Vote/contests/';
-const HOME_URL = BASE_URL + 'candidates.aspx';
+const EXTENSION = 'candidates.aspx';
+const PRIMARY = 'candidates.aspx?eid=38';
+const GENERAL = 'candidates.aspx?eid=39';
 
 // TODO: if there is a candidate with a missing statement,
 // we are going to have to do additional research
@@ -24,8 +26,29 @@ const HOME_URL = BASE_URL + 'candidates.aspx';
 
 const main = async () => {
   try {
-    const contestData = await scrapeHomePage();
-    saveDataToJson(contestData);
+    const primaryData = await scrapeHomePage(PRIMARY);
+    const generalData = await scrapeHomePage(GENERAL);
+    // This is used purely for testing purposes
+    // in the relational model, we expect this to be different!
+    const electionSet = [
+      {
+        'election_id': 1,
+        'election_type': 'primary',
+        'voting_start': 20230714,
+        'register_by': 20230724,
+        'voting_end': 20230801,
+        'contests': primaryData,
+      },
+      {
+        'election_id': 2,
+        'election_type': 'general',
+        'voting_start': 20231020,
+        'register_by': 20231030,
+        'voting_end': 20231107,
+        'contests': generalData,
+      },
+    ];
+    saveDataToJson(electionSet);
   } catch (error) {
     console.error(error);
   }
@@ -33,9 +56,10 @@ const main = async () => {
 
 /**
  * Initiates the scrape of the home page
+ * @param {string} electionExtension The URL of the home page to scrape.
  * @return {Promise<void>} Nothing
  */
-async function scrapeHomePage() {
+async function scrapeHomePage(electionExtension) {
   const browser = await puppeteer.launch({headless: 'new'});
   try {
     const page = await browser.newPage();
@@ -44,7 +68,7 @@ async function scrapeHomePage() {
     // allows for in-terminal debugging
     page.on('console', (msg) => console.log(msg.text()));
 
-    await page.goto(HOME_URL);
+    await page.goto(BASE_URL + electionExtension);
 
     // this gets contest position and url data from the scrape
     // calls Position_Lookup.fetchTuple to get the position data
@@ -121,6 +145,9 @@ async function scrapeCandidateData(browser, candidateUrl) {
         candidateData['name'] = candidate
             .querySelector('.pmph-cname')?.textContent.trim() || null;
 
+        candidateData['image'] = candidate
+            .querySelector('.candy-img-div img').src;
+
         // Safely attempt to get the candidate's website
         const websiteText = candidate
             .querySelector('.pmph-web span a')?.textContent.trim() || null;
@@ -152,6 +179,10 @@ async function scrapeCandidateData(browser, candidateUrl) {
         } else {
           candidateData['statement_source'] = 'King County voter pamphlet';
         }
+
+        candidateData['pfms'] = [];
+
+        candidateData['politigram_quotes'] = [];
 
         // now push all the candidate data as one candidate
         result.push(candidateData);
