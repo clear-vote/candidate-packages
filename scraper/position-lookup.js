@@ -50,54 +50,54 @@ function getTitle(s) {
       s.includes('commissioner')) {
     return null;
   } else if (s.includes('state senate')) {
-    return ['', 'state senate', '', ''];
+    return ['state legislature', 'state senate', '', ''];
   } else if (s.includes('state representative')) {
-    return ['', 'state house of representatives', '', ''];
+    return ['state legislature', 'state house of representatives', '', ''];
   } else if (s.includes('county') && s.includes('assessor')) {
-    return ['', 'county assessor', '', ''];
+    return ['county', 'county assessor', '', ''];
   } else if (s.includes('county') && s.includes('auditor')) {
-    return ['', 'county auditor', '', ''];
+    return ['county', 'county auditor', '', ''];
   } else if (s.includes('county') && s.includes('commissioner')) {
-    return ['', 'county commissioner', '', ''];
+    return ['county', 'county commissioner', '', ''];
   } else if (s.includes('county') &&
         s.includes('council') && s.includes('at large')) {
-    return ['', 'county council (at large)', '', ''];
+    return ['county', 'county council (at large)', '', ''];
   } else if (s.includes('county') &&
         s.includes('director') && s.includes('election')) {
-    return ['', 'county director of elections', '', ''];
+    return ['county', 'county director of elections', '', ''];
   } else if (s.includes('county') && s.includes('executive')) {
-    return ['', 'county executive', '', ''];
+    return ['county', 'county executive', '', ''];
   } else if (s.includes('county') &&
         s.includes('prosecuting') && s.includes('attorney')) {
-    return ['', 'county prosecuting attorney', '', ''];
+    return ['county', 'county prosecuting attorney', '', ''];
   } else if (s.includes('county') && s.includes('sheriff')) {
-    return ['', 'county sheriff', '', ''];
+    return ['county', 'county sheriff', '', ''];
   } else if (s.includes('county') && s.includes('treasurer')) {
-    return ['', 'county treasurer', '', ''];
+    return ['county', 'county treasurer', '', ''];
   } else if (s.includes('port') &&
         s.includes('commissioner') && s.includes('position')) {
-    return ['', 'port commissioner (at large)', '', ''];
+    return ['county', 'port commissioner (at large)', '', ''];
   } else if (s.includes('county') &&
         s.includes('council') && !s.includes('at large')) {
-    return ['', 'county council', '', ''];
+    return ['county council', 'county council', '', ''];
   } else if (s.includes('school') &&
         (s.includes('district') || s.includes('director'))) {
-    return ['', 'school district director', '', ''];
+    return ['school district', 'school district director', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('council') &&(s.includes('at large') ||
         s.includes('position'))) {
-    return ['', 'city council (at large)', '', ''];
+    return ['city', 'city council (at large)', '', ''];
   } else if (s.includes('mayor')) {
-    return 'mayor';
+    return ['city', 'mayor', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('attorney')) {
-    return ['', 'city attorney', '', ''];
+    return ['city', 'city attorney', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('treasurer')) {
-    return ['', 'city treasurer', '', ''];
+    return ['city', 'city treasurer', '', ''];
   } else if ((s.includes('city') || s.includes('town')) &&
         s.includes('council') && !s.includes('at large')) {
-    return ['', 'city council', '', ''];
+    return ['city council', 'city council', '', ''];
   } else {
     // TODO: implement port commissioner
     console.log('WARNING: Unsupported TITLE passed in');
@@ -115,22 +115,22 @@ function getDistrictChar(s, t) {
   // titles that don't have districts are null
   let match = null;
   let districtChar = null;
-  if (t === 'city council') {
+  if (t[1] === 'city council') {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
     console.error('ERROR: No district for city council found');
-  } else if (t === 'school district director') {
+  } else if (t[1] === 'school district director') {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
     console.error('ERROR: No district for school district director found');
-  } else if (t === 'county council') {
+  } else if (t[1] === 'county council') {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
     console.error('ERROR: No district for county council found');
-  } else if (t.includes('state')) {
+  } else if (t[1].includes('state')) {
     match = s.match(/(?:district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
@@ -149,23 +149,23 @@ function getDistrictChar(s, t) {
 function getPositionChar(s, t) {
   let match = null;
   let positionChar = null;
-  if (t === 'city council (at large)') {
+  if (t[1] === 'city council (at large)') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error('ERROR: No (at large) position for city council found');
-  } else if (t === 'school district director') {
+  } else if (t[1] === 'school district director') {
     match = s.match(/(?:director district no.|director district|director position no.|director position|director dist.)\s+(.*?)(?:,|\s+|$)/i); // TODO: concatonate strings here
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error(
         'ERROR: No director district position for school district found');
-  } else if (t === 'county council (at large)') {
+  } else if (t[1] === 'county council (at large)') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error('ERROR: No (at large) position for county council found');
-  } else if (t === 'port commissioner (at large)') {
+  } else if (t[1] === 'port commissioner (at large)') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
@@ -185,20 +185,20 @@ function getPositionChar(s, t) {
 function getAreaName(s, t, p, d) {
   let match = null;
   let areaName = null;
-  if (t.includes('city') || t === 'mayor' ||
-      t === 'port commissioner (at large)') {
+  if (t[1].includes('city') || t[1] === 'mayor' ||
+      t[1] === 'port commissioner (at large)') {
     match = s.match(/(?:city|town|port)\s+of\s+(.*?)(?:,|$)/i);
     areaName = match ? match[1] : null;
     if (areaName) return areaName;
     console.error('ERROR looking up city/town/port area');
-  } else if (t === 'school district director') {
+  } else if (t[1] === 'school district director') {
     match = s.match(/(.*?)(?:\s*school|\s*district|$)/i);
     areaName = match ? match[1] : null;
     if (areaName) return areaName;
     console.error('ERROR looking up school district area');
-  } else if (t.includes('county')) {
+  } else if (t[1].includes('county')) {
     return COUNTY;
-  } else if (t === 'state') {
+  } else if (t[1] === 'state') {
     return STATE;
   } else {
     console.log('WARNING: Unsupported AREA passed in');

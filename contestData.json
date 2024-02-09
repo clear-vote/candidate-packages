@@ -8,12 +8,12 @@
     "contests": [
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "4",
           "position_char": null
         },
         "candidate_info": [
@@ -54,12 +54,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "8",
           "position_char": null
         },
         "candidate_info": [
@@ -100,13 +100,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -146,24 +146,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bothell",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -203,13 +203,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "burien",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -260,13 +260,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "burien",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -306,13 +306,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "clyde hill",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -352,13 +352,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "issaquah",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -409,13 +409,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -455,13 +455,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -501,13 +501,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kent",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -569,13 +569,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kirkland",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -615,13 +615,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "lake forest park",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -661,13 +661,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "newcastle",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -707,10 +707,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "pacific",
           "district_char": null,
           "position_char": null
@@ -753,13 +753,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -799,13 +799,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -845,24 +845,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "renton",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "seatac",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -902,12 +902,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "1",
           "position_char": null
         },
         "candidate_info": [
@@ -1003,12 +1003,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "2",
           "position_char": null
         },
         "candidate_info": [
@@ -1049,12 +1049,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "3",
           "position_char": null
         },
         "candidate_info": [
@@ -1150,12 +1150,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "4",
           "position_char": null
         },
         "candidate_info": [
@@ -1207,12 +1207,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "5",
           "position_char": null
         },
         "candidate_info": [
@@ -1330,12 +1330,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "6",
           "position_char": null
         },
         "candidate_info": [
@@ -1409,12 +1409,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "7",
           "position_char": null
         },
         "candidate_info": [
@@ -1488,13 +1488,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "snoqualmie",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -1534,13 +1534,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -1580,13 +1580,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "bellevue",
+          "district_char": "405",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -1626,13 +1626,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "enumclaw",
+          "district_char": "216",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -1672,13 +1672,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "federal way",
+          "district_char": "210",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -1718,13 +1718,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "highline",
+          "district_char": "401",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -1775,13 +1775,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "highline",
+          "district_char": "401",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -1821,13 +1821,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "kent",
+          "district_char": "415",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -1878,13 +1878,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "mercer island",
+          "district_char": "400",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -1924,13 +1924,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "northshore",
+          "district_char": "417",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -1970,13 +1970,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "riverview",
+          "district_char": "407",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -2016,13 +2016,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -2073,13 +2073,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "6",
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -2119,13 +2119,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "shoreline",
+          "district_char": "412",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -2165,13 +2165,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "vashon island",
+          "district_char": "402",
+          "position_char": "3"
         }
       }
     ]
@@ -2185,12 +2185,12 @@
     "contests": [
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "2",
           "position_char": null
         },
         "candidate_info": [
@@ -2209,12 +2209,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "4",
           "position_char": null
         },
         "candidate_info": [
@@ -2244,12 +2244,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "6",
           "position_char": null
         },
         "candidate_info": [
@@ -2268,12 +2268,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "county council",
           "title_string": "county council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "king",
+          "district_char": "8",
           "position_char": null
         },
         "candidate_info": [
@@ -2303,10 +2303,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "algona",
           "district_char": null,
           "position_char": null
@@ -2338,13 +2338,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "algona",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -2362,24 +2362,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "algona",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "algona",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -2397,13 +2397,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -2432,13 +2432,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -2467,13 +2467,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -2502,13 +2502,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "auburn",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -2537,46 +2537,46 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "beaux arts village",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "beaux arts village",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "beaux arts village",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bellevue",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -2605,13 +2605,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bellevue",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -2640,13 +2640,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bellevue",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -2675,13 +2675,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bellevue",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -2710,13 +2710,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -2734,13 +2734,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -2758,13 +2758,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -2782,13 +2782,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -2806,13 +2806,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -2841,13 +2841,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "black diamond",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -2865,24 +2865,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bothell",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bothell",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -2911,13 +2911,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "bothell",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -2946,13 +2946,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "burien",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -2981,13 +2981,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "burien",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3016,13 +3016,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "burien",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -3051,13 +3051,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "carnation",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -3075,13 +3075,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "carnation",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -3110,13 +3110,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "carnation",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3145,13 +3145,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "carnation",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -3180,10 +3180,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "clyde hill",
           "district_char": null,
           "position_char": null
@@ -3204,13 +3204,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "clyde hill",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3239,13 +3239,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "clyde hill",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3274,13 +3274,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "covington",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -3298,13 +3298,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "covington",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -3322,13 +3322,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "covington",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -3346,13 +3346,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "covington",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -3370,13 +3370,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "des moines",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3405,13 +3405,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "des moines",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3440,13 +3440,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "des moines",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -3464,13 +3464,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "duvall",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3488,13 +3488,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "duvall",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3512,13 +3512,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "duvall",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -3536,24 +3536,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "duvall",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "enumclaw",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3582,13 +3582,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "enumclaw",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -3606,13 +3606,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "enumclaw",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -3630,13 +3630,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "federal way",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -3665,13 +3665,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "federal way",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -3700,13 +3700,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "federal way",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -3735,13 +3735,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "federal way",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -3770,13 +3770,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "hunts point",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3794,24 +3794,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "hunts point",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "issaquah",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -3840,24 +3840,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "issaquah",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "issaquah",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -3886,13 +3886,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -3921,13 +3921,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -3956,13 +3956,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -3991,13 +3991,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kenmore",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4026,24 +4026,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kent",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kent",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -4072,13 +4072,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kent",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -4096,13 +4096,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kent",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4131,13 +4131,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kirkland",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -4166,13 +4166,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kirkland",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -4201,13 +4201,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "kirkland",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -4236,10 +4236,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "lake forest park",
           "district_char": null,
           "position_char": null
@@ -4271,13 +4271,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "lake forest park",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -4295,13 +4295,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "lake forest park",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -4330,13 +4330,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "lake forest park",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -4365,13 +4365,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "maple valley",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -4389,13 +4389,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "maple valley",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -4413,24 +4413,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "maple valley",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "maple valley",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -4448,13 +4448,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "maple valley",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4472,13 +4472,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "medina",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -4496,13 +4496,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "medina",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -4520,13 +4520,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "medina",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -4544,13 +4544,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "mercer island",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -4568,13 +4568,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "mercer island",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -4592,13 +4592,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "mercer island",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -4627,13 +4627,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "mercer island",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4662,13 +4662,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "milton",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -4686,13 +4686,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "milton",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -4710,13 +4710,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "milton",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4734,13 +4734,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "newcastle",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -4769,13 +4769,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "newcastle",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -4804,13 +4804,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "newcastle",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -4839,13 +4839,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "newcastle",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -4874,13 +4874,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "normandy park",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -4898,13 +4898,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "normandy park",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -4922,13 +4922,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "normandy park",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -4946,13 +4946,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "normandy park",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -4970,10 +4970,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "north bend",
           "district_char": null,
           "position_char": null
@@ -5005,13 +5005,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "north bend",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -5040,13 +5040,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "north bend",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5064,13 +5064,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "north bend",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -5099,13 +5099,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "north bend",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -5123,10 +5123,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "pacific",
           "district_char": null,
           "position_char": null
@@ -5158,24 +5158,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "pacific",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "pacific",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5204,21 +5204,21 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "pacific",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         }
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "redmond",
           "district_char": null,
           "position_char": null
@@ -5250,13 +5250,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -5285,13 +5285,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5309,13 +5309,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -5333,13 +5333,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "redmond",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -5368,10 +5368,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "renton",
           "district_char": null,
           "position_char": null
@@ -5403,13 +5403,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "renton",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5438,13 +5438,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "renton",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -5473,13 +5473,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "renton",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -5508,13 +5508,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "renton",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -5543,13 +5543,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "sammamish",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -5578,13 +5578,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "sammamish",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5613,13 +5613,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "sammamish",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -5648,13 +5648,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "sammamish",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -5683,13 +5683,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "seatac",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -5718,13 +5718,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "seatac",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -5753,13 +5753,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "seatac",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -5788,13 +5788,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "seatac",
           "district_char": null,
-          "position_char": null
+          "position_char": "7"
         },
         "candidate_info": [
           {
@@ -5823,12 +5823,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "1",
           "position_char": null
         },
         "candidate_info": [
@@ -5858,12 +5858,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "2",
           "position_char": null
         },
         "candidate_info": [
@@ -5893,12 +5893,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "3",
           "position_char": null
         },
         "candidate_info": [
@@ -5928,12 +5928,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "4",
           "position_char": null
         },
         "candidate_info": [
@@ -5963,12 +5963,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "5",
           "position_char": null
         },
         "candidate_info": [
@@ -5998,12 +5998,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "6",
           "position_char": null
         },
         "candidate_info": [
@@ -6033,12 +6033,12 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city council",
           "title_string": "city council",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
+          "area_name": "seattle",
+          "district_char": "7",
           "position_char": null
         },
         "candidate_info": [
@@ -6068,13 +6068,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "shoreline",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6092,57 +6092,57 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "shoreline",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "shoreline",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "skykomish",
           "district_char": null,
-          "position_char": null
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "skykomish",
           "district_char": null,
-          "position_char": null
+          "position_char": "3"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "skykomish",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -6160,13 +6160,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "snoqualmie",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6184,13 +6184,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "snoqualmie",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6219,13 +6219,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "snoqualmie",
           "district_char": null,
-          "position_char": null
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -6254,13 +6254,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "snoqualmie",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -6278,10 +6278,10 @@
       },
       {
         "position_info": {
-          "boundary_type": "m",
-          "title_string": "a",
-          "title_info": "y",
-          "title_description": "o",
+          "boundary_type": "city",
+          "title_string": "mayor",
+          "title_info": "",
+          "title_description": "",
           "area_name": "tukwila",
           "district_char": null,
           "position_char": null
@@ -6313,13 +6313,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "tukwila",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6337,13 +6337,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "tukwila",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6372,13 +6372,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "tukwila",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -6396,13 +6396,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "woodinville",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6431,13 +6431,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "woodinville",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6466,13 +6466,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "woodinville",
           "district_char": null,
-          "position_char": null
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -6501,24 +6501,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "yarrow point",
           "district_char": null,
-          "position_char": null
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "city",
           "title_string": "city council (at large)",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
+          "area_name": "yarrow point",
           "district_char": null,
-          "position_char": null
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6547,24 +6547,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "auburn",
+          "district_char": "408",
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "auburn",
+          "district_char": "408",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6582,13 +6582,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "auburn",
+          "district_char": "408",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -6617,13 +6617,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "auburn",
+          "district_char": "408",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6641,13 +6641,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "bellevue",
+          "district_char": "405",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -6665,24 +6665,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "bellevue",
+          "district_char": "405",
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "bellevue",
+          "district_char": "405",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6700,24 +6700,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "enumclaw",
+          "district_char": "216",
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "enumclaw",
+          "district_char": "216",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -6746,13 +6746,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "enumclaw",
+          "district_char": "216",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6781,13 +6781,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "federal way",
+          "district_char": "210",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6816,24 +6816,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "federal way",
+          "district_char": "210",
+          "position_char": "3"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "federal way",
+          "district_char": "210",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -6862,13 +6862,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "fife",
+          "district_char": "417",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -6886,13 +6886,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "fife",
+          "district_char": "417",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -6910,13 +6910,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "highline",
+          "district_char": "401",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -6945,13 +6945,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "highline",
+          "district_char": "401",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -6980,13 +6980,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "highline",
+          "district_char": "401",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7004,13 +7004,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "issaquah",
+          "district_char": "411",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7028,13 +7028,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "issaquah",
+          "district_char": "411",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7052,24 +7052,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "issaquah",
+          "district_char": "411",
+          "position_char": "5"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "kent",
+          "district_char": "415",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7087,13 +7087,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "kent",
+          "district_char": "415",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -7122,13 +7122,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "kent",
+          "district_char": "415",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7157,13 +7157,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "lake washington",
+          "district_char": "414",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7192,13 +7192,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "lake washington",
+          "district_char": "414",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -7216,13 +7216,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "lake washington",
+          "district_char": "414",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7251,13 +7251,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "mercer island",
+          "district_char": "400",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7286,13 +7286,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "mercer island",
+          "district_char": "400",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7310,13 +7310,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "mercer island",
+          "district_char": "400",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7345,13 +7345,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "northshore",
+          "district_char": "417",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -7369,13 +7369,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "northshore",
+          "district_char": "417",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7404,24 +7404,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "renton",
+          "district_char": "403",
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "renton",
+          "district_char": "403",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7439,13 +7439,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "renton",
+          "district_char": "403",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -7463,24 +7463,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "riverview",
+          "district_char": "407",
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "riverview",
+          "district_char": "407",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7509,13 +7509,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "riverview",
+          "district_char": "407",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -7533,13 +7533,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7568,13 +7568,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -7603,13 +7603,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7638,13 +7638,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "seattle",
+          "district_char": "1",
+          "position_char": "6"
         },
         "candidate_info": [
           {
@@ -7673,13 +7673,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "shoreline",
+          "district_char": "412",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -7697,13 +7697,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "shoreline",
+          "district_char": "412",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -7732,13 +7732,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "shoreline",
+          "district_char": "412",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7756,35 +7756,35 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "skykomish",
+          "district_char": "404",
+          "position_char": "1"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "skykomish",
+          "district_char": "404",
+          "position_char": "4"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "snoqualmie valley",
+          "district_char": "410",
+          "position_char": "2"
         },
         "candidate_info": [
           {
@@ -7813,13 +7813,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "snoqualmie valley",
+          "district_char": "410",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7837,13 +7837,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "snoqualmie valley",
+          "district_char": "410",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7861,24 +7861,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tahoma",
+          "district_char": "409",
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tahoma",
+          "district_char": "409",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -7907,13 +7907,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tahoma",
+          "district_char": "409",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -7942,13 +7942,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tahoma",
+          "district_char": "409",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -7977,13 +7977,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tukwila",
+          "district_char": "406",
+          "position_char": "4"
         },
         "candidate_info": [
           {
@@ -8001,13 +8001,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "tukwila",
+          "district_char": "406",
+          "position_char": "5"
         },
         "candidate_info": [
           {
@@ -8025,13 +8025,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "vashon island",
+          "district_char": "402",
+          "position_char": "1"
         },
         "candidate_info": [
           {
@@ -8049,24 +8049,24 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "vashon island",
+          "district_char": "402",
+          "position_char": "2"
         }
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "vashon island",
+          "district_char": "402",
+          "position_char": "3"
         },
         "candidate_info": [
           {
@@ -8095,13 +8095,13 @@
       },
       {
         "position_info": {
-          "boundary_type": "",
+          "boundary_type": "school district",
           "title_string": "school district director",
           "title_info": "",
           "title_description": "",
-          "area_name": null,
-          "district_char": null,
-          "position_char": null
+          "area_name": "vashon island",
+          "district_char": "402",
+          "position_char": "5"
         },
         "candidate_info": [
           {

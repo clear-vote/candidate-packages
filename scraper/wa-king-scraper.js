@@ -10,7 +10,6 @@ const ELECTION_NUMBER = 2;
 // TODO: in future iterations, we'd like to use the following url pattern
 // https://voter.votewa.gov/GenericVoterGuide.aspx?e=?&c=?#/
 const BASE_URL = 'https://info.kingcounty.gov/kcelections/Vote/contests/';
-const EXTENSION = 'candidates.aspx';
 const PRIMARY = 'candidates.aspx?eid=38';
 const GENERAL = 'candidates.aspx?eid=39';
 
