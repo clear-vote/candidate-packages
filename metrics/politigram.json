@@ -1,0 +1,44 @@
+[
+    {
+        "name": "safety and security",
+        "number": 1,
+        "icon": "",
+        "attributes": "fraud and abuse security, ensuring the security of sensitive property data, security measures against cyber threats, crime reduction, emergency services, police-community relations, public space safety, preemptive crime targeting, safety measures."
+    },
+    {
+        "name": "economic development",
+        "number": 2,
+        "icon": "",
+        "attributes": "trade and job creation, small business support, tourism, tax policy, economic development initiatives, international relationships, technology, organizational and logistical efficiency, budget creation, deregulation."
+    },
+    {
+        "name": "civic empowerment",
+        "number": 3,
+        "icon": "",
+        "attributes": "transparency in government, community outreach programs, community engagement in policy, accessibility of information, transparent law enforcement, democratic integrity, standardization."
+    },
+    {
+        "name": "community wellbeing",
+        "number": 4,
+        "icon": "",
+        "attributes": "public health, public works, access to healthy food and water, mental health support, physical education, nutritional programs, substance abuse prevention, crisis response services, emergency preparedness"
+    },
+    {
+        "name": "education and workforce",
+        "number": 5,
+        "icon": "",
+        "attributes": "academics, equity, opportunity initiatives, childcare, funding for schools and youth programs, accessible public education, retraining programs, public libraries, high-speed internet access."
+    },
+    {
+        "name": "environmental infrastructure",
+        "number": 6,
+        "icon": "",
+        "attributes": "sustainable development, waste reduction and management, climate change initiatives, renewable energy, green initiatives, energy conservation, sustainable urban growth, green space."
+    },
+    {
+        "name": "social support",
+        "number": 7,
+        "icon": "",
+        "attributes": "equity, senior services, disability services, public health initiatives, immigrant integration services, veteran support, and accessible facilities, union relations, indigenous community relations, rehabilitation programs, low-income housing, subsidies."
+    }
+]

@@ -64,3 +64,6 @@ Thumbs.db
 
 # Jest
 coverage/
+
+# we won't save jupyter notebooks
+*.ipynb

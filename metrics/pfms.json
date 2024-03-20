@@ -1,0 +1,804 @@
+{
+    "county assessor": {
+        "description": "A county assessor determines the value of properties within a jurisdiction for property tax purposes, ensuring assessments are fair and accurate according to current market values and property characteristics. This role involves managing property records, addressing taxpayer inquiries, and overseeing appeals related to property valuations.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "fairness",
+                "icon": "",
+                "attributes": "Address disparities in property tax burdens; Advocate for property tax legislation changes; Implement fair assessment practices; Address under-assessment, gentrification; Promote diversity and inclusion",
+                "politigram": [
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transparency",
+                "icon": "",
+                "attributes": "Inform the public on changes to the assessment process; Enhance public education of the assessment process",
+                "politigram": [
+                    3,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "assessor expertise",
+                "icon": "",
+                "attributes": "Navigate historic property issues, political pressures; Address the impact of natural disasters on property value; Utilize new technology in assessments; Accurate property records, databases, valuations of complex commercial property assessments; Balance between rural and urban",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "standardization",
+                "icon": "",
+                "attributes": "Enforce compliance with State and Federal tax laws; Coordinate with local governments, other counties, and federal agencies; Coordinate with other counties on assessment standards; Address property tax delinquency, property tax exemptions issues; Implement ethical standards, best practices from other jurisdictions",
+                "politigram": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "market reflection",
+                "icon": "",
+                "attributes": "Adapt to legislative changes affecting property taxes; Adapt to changes in property values due to market fluctuations; Address the impact of zoning changes on property values; Address the impact of economic downturns on property values; Addres the challenges of rapidly changing neighborhoods",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accessibility",
+                "icon": "",
+                "attributes": "Develop a user-friendly assessor's website; Ensure the continuity of operations during emergencies; Ensure the accessibility for individuals with disabilities in the assessment process",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "sustainable development",
+                "icon": "",
+                "attributes": "Consider environmental concerns in property assessments; Reduce waste in the assessor's office; Promote sustainable development through assessments",
+                "politigram": [
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community engagement",
+                "icon": "",
+                "attributes": "Engage with community organizations; Engage with public on proposed assessment changes; Manage public expectations on property taxes; Public Relations",
+                "politigram": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "optimization",
+                "icon": "",
+                "attributes": "Balance budget constraints, Address taxpayer concerns efficiently, Enhance collaboration with real estate professionals",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "fraud and abuse",
+                "icon": "",
+                "attributes": "Ensure the security of sensitive property data, Address cases of fraud and abuse, Identify and resolve conflicts of interest",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "appeals",
+                "icon": "",
+                "attributes": "Streamline the assessment appeal process, Handle appeals against property valuations, Manage the workload of assessment appeals",
+                "politigram": [
+                    2,
+                    7
+                ]
+            }
+        ]
+    },
+    "county director of elections": {
+        "description": "A county director of elections oversees the administration of electoral processes within a county, ensuring that elections are conducted fairly, efficiently, and in compliance with relevant laws and regulations. This includes managing voter registration, polling places, election personnel, and the tabulation of votes.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "election integrity",
+                "icon": "",
+                "attributes": "Ensure integrity of ballot counting process, voter registration list; Monitor for insider threats, tampering; Implement voter ID laws; Conduct post-election audits",
+                "politigram": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "security",
+                "icon": "",
+                "attributes": "Update security measures, secure electoral databases; Monitor election activities near polling places; Ensure the physical security of election materials; Protect election systems against cyber threats and hacking attempts",
+                "politigram": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "public safety",
+                "icon": "",
+                "attributes": "Coordinate with law enforcement for public safety, Ensure the privacy and confidentiality of votes",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "logistics",
+                "icon": "",
+                "attributes": "Preserve election records; Manage logistics of mail-in ballots, voter verification, remote and rural areas, training of poll workers and volunteers; Develop contingency plans for machine malfunctions, power outages, disasters, emergencies, pandemics; Provide sufficient voting machines; Budget for election operations",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "sustainability",
+                "icon": "",
+                "attributes": "Foster sustainable election operations, Minimize mail-in voting waste",
+                "politigram": [
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "standardization",
+                "icon": "",
+                "attributes": "Foster integrity among staff, Adopt new voting technology appropriately, Ensure compliance with federal, state, local election laws, regulations",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community engagement",
+                "icon": "",
+                "attributes": "Engage with marginalized communities, young voters, political parties, candidates, academic and research institutions; Enhance voter education; Keep public informed of election information",
+                "politigram": [
+                    3,
+                    5,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accessibility",
+                "icon": "",
+                "attributes": "Maintain user-friendly website with election information; Ensure availability polling places to those with disabilities, language barriers, overseas, marginalized communities; Foster equitable access to electronic voting; Implement early and absentee/mail-in voting systems",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "disputes",
+                "icon": "",
+                "attributes": "Navigate legal challenges to election procedures and results; Handle electoral disputes and challenges; manage recounts and run-off elections; Crackdown on misinformation and disinformation campaigns",
+                "politigram": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transparency",
+                "icon": "",
+                "attributes": "Coordinate with media for election coverage; Manage public expectations in the election process; Outline relationships with third party entities and technology companies",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "neutrality",
+                "icon": "",
+                "attributes": "Facilitate participation of independent and third-party candidates; Address partisan pressures; Maintain neutrality",
+                "politigram": [
+                    3
+                ]
+            }
+        ]
+    },
+    "county council": {
+        "description": "A county council member is responsible for legislating local policies, ordinances, and budgets to address the needs and welfare of the county's residents. They also oversee the management and allocation of county resources, including infrastructure, public services, and development projects.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "security",
+                "icon": "",
+                "attributes": "Domestic violence services and prevention; Gun control and safety measures; Public safety and crime reduction",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "public works",
+                "icon": "",
+                "attributes": "Roads, bridges, public buildings; Public Wi-Fi and broadband access; Public libraries and cultural services",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transit",
+                "icon": "",
+                "attributes": "Traffic congestion and safety, Walkable infrastructure, Light rail, Subways, Bus lines, Bicycle infrastructure",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "sustainability",
+                "icon": "",
+                "attributes": "Climate change measures; Renewable energy initiatives; Animal control; Waste management, recycling programs; Water quality, Air quality",
+                "politigram": [
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "economic development",
+                "icon": "",
+                "attributes": "Tax policy; Tourism; Small business support",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "youth services",
+                "icon": "",
+                "attributes": "Childcare; Education funding; Youth programs",
+                "politigram": [
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community investment",
+                "icon": "",
+                "attributes": "Partnership with local schools and universities; Local media support; Parks and recreational facilities; Neighborhood revitalization; Historic and cultural heritage preservation",
+                "politigram": [
+                    4,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "homelessness",
+                "icon": "",
+                "attributes": "Mental health services; Drug abuse prevention and rehabilitation; Affordable housing",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "social services",
+                "icon": "",
+                "attributes": "Eldercare, Veterans' services, Immigration support, Disability services, Affordable legal services, Public health initiatives, Emergency medical services, disaster preparedness",
+                "politigram": [
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accountability",
+                "icon": "",
+                "attributes": "Law enforcement transparency; Voter access, election integrity",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "regulation",
+                "icon": "",
+                "attributes": "Regulation of new technologies and industries; Zoning urban, residential, agricultural, rural; Privacy and data protection for residents",
+                "politigram": [
+                    3,
+                    4,
+                    6,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "advocacy",
+                "icon": "",
+                "attributes": "Support for non-profit organizations, food banks, community groups, arts and creative industries; LGBTQ+, Racial equity; Community policing",
+                "politigram": [
+                    4,
+                    7
+                ]
+            }
+        ]
+    },
+    "port commissioner": {
+        "description": "A port commissioner oversees the operations and development of a port, making decisions related to budget, policies, and strategic planning to ensure the port's efficiency, security, and economic viability. They may also be involved in environmental and community relations issues related to port activities.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "operations",
+                "icon": "",
+                "attributes": "maritime safety, fishery management, harbor maintenance, navigational aids, dredging projects, pilotage services, vessel tracking systems",
+                "politigram": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "economics",
+                "icon": "",
+                "attributes": "commercial fishing interests; alternative revenue streams; trade and private-public partnerships, job creation, global supply chain resiliency, market analysis and strategy",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "environment",
+                "icon": "",
+                "attributes": "air quality standards, water quality monitoring, noise reduction, renewable energy use, carbon emissions reduction, wildlife conservation, coastal erosion management",
+                "politigram": [
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "security",
+                "icon": "",
+                "attributes": "port security, cybersecurity, crisis management, hazardous materials handling, international compliance, immigration and customs facilitation",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "infrastructure",
+                "icon": "",
+                "attributes": "seafood export, intermodal, and parking facilities; infrastructure and technology upgrades; competitive tendering processes; warehousing, clean technology investment",
+                "politigram": [
+                    2,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community",
+                "icon": "",
+                "attributes": "union relations; public relations; international representation; waterfront access; tourist services; indigenous community relations; educational programs; recreational spaces; stakeholder communication; accessibility",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accountability",
+                "icon": "",
+                "attributes": "open data policies; transparent governance; disaster preparedness; fair labor practices; land use planning; real estate development; historical preservation; financial audits, anti-corruption measures",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "services",
+                "icon": "",
+                "attributes": "competitive pricing; customer satisfaction; food and beverage concessions; ferry, yacht, and marina services; recreational boating facilities",
+                "politigram": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "management",
+                "icon": "",
+                "attributes": "customs, aviation, and transportation link efficiency; cruise terminal operations, traffic flow management, cargo throughput, freight logistics",
+                "politigram": [
+                    2
+                ]
+            }
+        ]
+    },
+    "city council": {
+        "description": "A city council person participates in the legislative body of a city, responsible for making decisions, passing ordinances, and setting policies that affect local governance. They also address constituents' needs, represent their interests, and work on local development projects.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "wellbeing",
+                "icon": "",
+                "attributes": "Affordable utilities, public services, housing; tenant protections; emergency relief; public health screening and research",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "homelessness",
+                "icon": "",
+                "attributes": "mental health preventative programs and crisis response services; drug abuse rehabilitation initiatives",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "Emergency",
+                "icon": "",
+                "attributes": "disaster preparation initiatives, emergency services, and climate resilience planning",
+                "politigram": [
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "Justice",
+                "icon": "",
+                "attributes": "police accountability and reform; protections for non-violent and first-time offenders",
+                "politigram": [
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "security",
+                "icon": "",
+                "attributes": "street and graffiti cleanup, loitering, theft, and open drug use enforcement; increased investigation efforts",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transit",
+                "icon": "",
+                "attributes": "cyclist incentives; bus lanes and support; railways, subway, and tram initiatives",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "infrastructure",
+                "icon": "",
+                "attributes": "electric grid, water system, and high-speed internet initiatives; road and sidewalk repair; replacement of hazardous infrastructure",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "economics",
+                "icon": "",
+                "attributes": "local tax reform and small business initiatives, business district and profitable development initiatives",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community",
+                "icon": "",
+                "attributes": "school partnerships, community outreach programs and civic engagement; museum and library funding;",
+                "politigram": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "environment",
+                "icon": "",
+                "attributes": "animal and noxious weed control; local wildlife and ecosystem protections; expanded recycling initiatives; energy use and water use regulations, green space management and initiatives",
+                "politigram": [
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "development",
+                "icon": "",
+                "attributes": "urban agriculture, long-term architecture, and sustainable construction initiatives, pedestrian and cyclist-friendly infrastructure, community conscientious development",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "zoning",
+                "icon": "",
+                "attributes": "experimental and alternative zoning permissions, building height regulations, zoning for families and local businesses",
+                "politigram": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accountability",
+                "icon": "",
+                "attributes": "Transparent election data and city decisions; public official accountability; prudent city budget allocation",
+                "politigram": [
+                    3
+                ]
+            }
+        ]
+    },
+    "mayor": {
+        "description": "A mayor serves as the chief executive officer of a city or town, responsible for overseeing the municipal government's operations and implementing its laws and policies. They also represent the community, manage public services, and work with city councils to develop and achieve strategic goals.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "security",
+                "icon": "",
+                "attributes": "Improve police-community relations; Ensure safe public spaces; Preemptive crime targeting",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "youth services",
+                "icon": "",
+                "attributes": "Enhance the quality of public education; Increase funding for schools, youth programs and activities; Access to child care",
+                "politigram": [
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "public works",
+                "icon": "",
+                "attributes": "Natural disaster and emergency infrastructure; Repair roads, bridges, sidewalks; Improve access to high-speed internet and digital services.",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "homelessness",
+                "icon": "",
+                "attributes": "Affordable housing; Access to healthy food; Expand programs for substance abuse prevention, mental health services, treatment",
+                "politigram": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "sustainability",
+                "icon": "",
+                "attributes": "Promote green initiatives, energy conservation, renewable energy projects; Improve waste management, air quality, animal control and welfare services; Reduce carbon emissions; Ensure clean water",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transit",
+                "icon": "",
+                "attributes": "Expand public transit options, bus-lines, walking and cycling infrastructure; Reduce traffic and congestion",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "social services",
+                "icon": "",
+                "attributes": "Provide training and job skills education programs; Senior services and protections; Immigrant integration services; Veteran support; Accessible facilities for disabled people",
+                "politigram": [
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "economic development",
+                "icon": "",
+                "attributes": "Support for small businesses, sister city partnerships, foreign investment; Create job opportunities, tourist attractions; Efficient usage of city resources; Balanced tax policies",
+                "politigram": [
+                    2
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "urban planning",
+                "icon": "",
+                "attributes": "Sustainable urban growth; Encourage development; Preserve community character",
+                "politigram": [
+                    2,
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "transparency",
+                "icon": "",
+                "attributes": "Open governance; Encourage citizen participation in government",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community investment",
+                "icon": "",
+                "attributes": "",
+                "politigram": [
+                    4,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "civic liberty",
+                "icon": "",
+                "attributes": "Promote urban agriculture, arts, culture, cultural festivals, community events, historical preservation; Expand and provide public library services; Maintain parks and recreational facilities",
+                "politigram": [
+                    3,
+                    7
+                ]
+            }
+        ]
+    },
+    "school district director": {
+        "description": "A school district director oversees the administration of schools within a specific district, focusing on implementing educational policies, curriculum standards, and managing budget allocations to ensure a high-quality education for all students. They also work with the community, staff, and other stakeholders to address educational goals and challenges.",
+        "pfms": [
+            {
+                "pid": 0,
+                "pfm": "academics",
+                "icon": "",
+                "attributes": "STEM and digital literacy initiatives; reading, arts and humanities; foreign language programs; gifted programs, college readiness, and standardized test prep; tutoring",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "teachers",
+                "icon": "",
+                "attributes": "teacher retention, evaluation, accountability, and incentives; professional development for staff",
+                "politigram": [
+                    3,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "quality",
+                "icon": "",
+                "attributes": "class size reduction; distance learning and mental health support; special education and social-emotional learning; counseling services; physical education; dropout prevention",
+                "politigram": [
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "funding",
+                "icon": "",
+                "attributes": "library and media services; grants; technology upgrades; school infrastructure",
+                "politigram": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "lunch",
+                "icon": "",
+                "attributes": "sustainable lunches; food systems education, increased nutritional quality and availability of school lunches",
+                "politigram": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "equity",
+                "icon": "",
+                "attributes": "racial, gender, LGBTQ+, and disability equity; diverse, culturally sensitive faculties; bilingual education; anti-discriminatory and open enrollment policies",
+                "politigram": [
+                    7
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "safety",
+                "icon": "",
+                "attributes": "security, anti-bullying programs, conflict resolution training, student discipline policies, lock-down and emergency preparedness",
+                "politigram": [
+                    1
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "community",
+                "icon": "",
+                "attributes": "district rezoning, school start times, bus and transit services, parental and alumni engagement, community partnerships, parent-teacher communication, school board relations, community outreach",
+                "politigram": [
+                    3,
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "opportunity",
+                "icon": "",
+                "attributes": "financial literacy, life skills, and early childhood education; adult education programs; student-led initiatives; internship and apprenticeship programs; summer school and remedial programs",
+                "politigram": [
+                    5
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "extracurricular",
+                "icon": "",
+                "attributes": "extracurricular, after-school, athletic, music, and arts programs",
+                "politigram": [
+                    4
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "accountability",
+                "icon": "",
+                "attributes": "transparency and accountability; student privacy and data protection; public relations; ethical conduct and governance",
+                "politigram": [
+                    3
+                ]
+            },
+            {
+                "pid": 0,
+                "pfm": "policy",
+                "icon": "",
+                "attributes": "school dress codes, textbook and material selection, drug and alcohol education, homework, attendance, and zero-tolerance policies",
+                "politigram": [
+                    1,
+                    7
+                ]
+            }
+        ]
+    }
+}
