@@ -18,9 +18,9 @@ function fetchTuple(positionText) {
   const boundary = boundaryAndTitle[0];
   const title = boundaryAndTitle[1];
 
-  const positionChar = getPositionChar(rawText, title);
-  const districtChar = getDistrictChar(rawText, title);
-  const areaName = getAreaName(rawText, title, positionChar, districtChar);
+  const areaName = getAreaName(rawText, title);
+  const districtChar = getDistrictChar(rawText, boundary, title);
+  const positionChar = getPositionChar(rawText, boundary, title);
   return {
     boundary_type: boundary,
     title_string: title,
@@ -68,7 +68,7 @@ function getBoundaryAndTitle(s) {
     // County Council AT LARGE (the difference is in the boundary type)
   } else if (s.includes('county') &&
     s.includes('council') && s.includes('at large')) {
-    return ['county', 'county council (at large)'];
+    return ['county', 'county council'];
     // County Director
   } else if (s.includes('county') &&
     s.includes('director') && s.includes('election')) {
@@ -102,7 +102,7 @@ function getBoundaryAndTitle(s) {
   } else if ((s.includes('city') || s.includes('town')) &&
     s.includes('council') && (s.includes('at large') ||
       s.includes('position'))) {
-    return ['city', 'city council (at large)'];
+    return ['city', 'city council'];
     // Mayor
   } else if (s.includes('mayor')) {
     return ['city', 'mayor'];
@@ -128,14 +128,15 @@ function getBoundaryAndTitle(s) {
 /**
  * returns a the district character
  * @param {string} s
+ * @param {string} b
  * @param {string} t
  * @return {char|null} positionChar
  */
-function getDistrictChar(s, t) {
+function getDistrictChar(s, b, t) {
   // titles that don't have districts are null
   let match = null;
   let districtChar = null;
-  if (t === 'city council') {
+  if (t === 'city council' && b === 'city council') {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
@@ -145,7 +146,7 @@ function getDistrictChar(s, t) {
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
     console.error('ERROR: No district for school district director found');
-  } else if (t === 'county council') {
+  } else if (t === 'county council' && b === 'county council') {
     match = s.match(/(?:district no.|district)\s+(.*?)(?:,|\s+|$)/i);
     districtChar = match ? match[1] : null;
     if (districtChar) return districtChar;
@@ -163,13 +164,14 @@ function getDistrictChar(s, t) {
 /**
  * returns a position character
  * @param {string} s
+ * @param {string} b
  * @param {string} t
  * @return {char|null} positionChar
  */
-function getPositionChar(s, t) {
+function getPositionChar(s, b, t) {
   let match = null;
   let positionChar = null;
-  if (t === 'city council (at large)' || t === 'port commissioner') {
+  if (t === 'city council' && b === 'city') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
@@ -180,12 +182,12 @@ function getPositionChar(s, t) {
     if (positionChar) return positionChar;
     console.error(
       'ERROR: No director district position for school district found');
-  } else if (t === 'county council (at large)') {
+  } else if (t === 'county council' && b === 'county') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
     console.error('ERROR: No (at large) position for county council found');
-  } else if (t === 'port commissioner (at large)') {
+  } else if (t === 'port commissioner') {
     match = s.match(/(?:position no.|position)\s+(.*?)(?:,|\s+|$)/i);
     positionChar = match ? match[1] : null;
     if (positionChar) return positionChar;
@@ -198,11 +200,9 @@ function getPositionChar(s, t) {
  * gets the area name
  * @param {string} s
  * @param {string} t
- * @param {char|null} p
- * @param {char|null} d
  * @return {string|null} areaName
  */
-function getAreaName(s, t, p, d) {
+function getAreaName(s, t) {
   let match = null;
   let areaName = null;
   if (t.includes('city') || t === 'mayor' ||
@@ -218,7 +218,7 @@ function getAreaName(s, t, p, d) {
     console.error('ERROR looking up school district area: ' + areaName);
   } else if (t.includes('county')) {
     return COUNTY;
-  } else if (t === 'state') {
+  } else if (t.includes('state')) {
     return STATE;
   } else {
     console.log('WARNING: Unsupported AREA passed in');

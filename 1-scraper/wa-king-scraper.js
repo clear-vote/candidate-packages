@@ -46,6 +46,14 @@ const main = async () => {
         'voting_end': 20231107,
         'contests': generalData,
       },
+      {
+        'election_id': 3,
+        'election_type': 'primary',
+        'voting_start': 20240719,
+        'register_by': 20240729,
+        'voting_end': 20240806,
+        'contests': [],
+      },
     ];
     saveDataToJson(electionSet);
   } catch (error) {
